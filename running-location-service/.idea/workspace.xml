@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbfd0ca8-c683-44aa-9256-3195074de1a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/domain/LocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/domain/LocationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/rest/RunningUploadRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/rest/RunningUploadRestController.java" afterDir="false" />
-    </list>
+    <list default="true" id="fbfd0ca8-c683-44aa-9256-3195074de1a4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/domain/LocationRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+            <state relative-caret-position="255">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -220,12 +215,12 @@
       <workItem from="1557501298436" duration="17584000" />
       <workItem from="1557885241859" duration="5900000" />
       <workItem from="1557932859969" duration="7814000" />
-      <workItem from="1558029293127" duration="2319000" />
+      <workItem from="1558029293127" duration="2637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40350000" />
+    <option name="totallyTimeSpent" value="40668000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -434,8 +429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/domain/LocationRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+        <state relative-caret-position="255">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
