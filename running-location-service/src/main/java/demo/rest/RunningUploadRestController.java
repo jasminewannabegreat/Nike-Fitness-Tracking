@@ -39,12 +39,12 @@ public class RunningUploadRestController {
     @RequestMapping(value = "/running/{movementType}", method = RequestMethod.GET)
     //pathvariable is used to map the param as the url variable, request Param is used as the url param after ?page=
     public Page<Location> findByMovementType(@PathVariable String movementType, @RequestParam(name = "page") int page, @RequestParam(name = "size")int size){
-        return this.locationService.findByRunnerMovementType(movementType, new PageRequest(page, size));
+        return this.locationService.findByRunnerMovementType(movementType, PageRequest.of(page,size));
     }
 
     @RequestMapping(value = "running/runningId/{runningId}", method = RequestMethod.GET)
     public Page<Location> findByRunningId(@PathVariable String runningId, @RequestParam(name = "page")int page, @RequestParam(name = "size")int size){
-        return this.locationService.findByRunningId(runningId, new PageRequest(page,size));
+        return this.locationService.findByRunningId(runningId, PageRequest.of(page,size));
 
     }
 }
