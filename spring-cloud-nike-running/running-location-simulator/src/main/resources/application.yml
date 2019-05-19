@@ -1,11 +1,11 @@
 server:
-  ports: 9005
-springs:
+  port: 9005
+spring:
   application:
-    name: runnning-location-simulator
+    name: running-location-simulator
 
 com:
   example:
     running:
       location:
-        distribution: http://location:9006
+        distribution: http://localhost:9006

@@ -8,12 +8,22 @@
         <outputRelativeToContentRoot value="true" />
         <module name="running-location-updater" />
         <module name="running-location-simulator" />
+        <module name="eureka" />
         <module name="running-location-distribution" />
+        <module name="edgingservice" />
+        <module name="hystrixdashboard" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="edgingservice" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="hystrixdashboard" options="-parameters" />
+      <module name="platform" options="-parameters" />
       <module name="running-location-distribution" options="-parameters" />
       <module name="running-location-simulator" options="-parameters" />
       <module name="running-location-updater" options="-parameters" />

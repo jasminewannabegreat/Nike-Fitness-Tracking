@@ -12,6 +12,8 @@
         <module>running-location-simulator</module>
         <module>running-location-distribution</module>
         <module>running-location-updater</module>
+        <module>platform</module>
+        <module>edging-service</module>
     </modules>
 
     <parent>
@@ -38,7 +40,7 @@
 
     <repositories>
         <repository>
-            <id>spring-snapshot</id>
+            <id>spring-snapshots</id>
             <name>Spring Snapshots</name>
             <url>https://repo.spring.io/snapshot</url>
             <snapshots>
@@ -48,7 +50,7 @@
         <repository>
             <id>spring-milestones</id>
             <name>Spring Milestones</name>
-            <url>https://repo.spring.io/snapshot</url>
+            <url>https://repo.spring.io/milestone</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -57,7 +59,7 @@
 
     <pluginRepositories>
         <pluginRepository>
-            <id>spring-snapshot</id>
+            <id>spring-snapshots</id>
             <name>Spring Snapshots</name>
             <url>https://repo.spring.io/snapshot</url>
             <snapshots>
@@ -67,7 +69,7 @@
         <pluginRepository>
             <id>spring-milestones</id>
             <name>Spring Milestones</name>
-            <url>https://repo.spring.io/snapshot</url>
+            <url>https://repo.spring.io/milestone</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>

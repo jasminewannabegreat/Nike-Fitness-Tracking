@@ -35,7 +35,7 @@ public class LocationSimulatorRestApi {
     private Map<Long, LocationSimulatorInstance> taskFutures = new HashMap<>();
 
     //1. Load SimulatorInitLocations from json file
-    //2. Transform domain model simulator request to a class that can be executed by taskExecutor
+    //2. Transform domain demo.model simulator request to a class that can be executed by taskExecutor
     //3. taskExecutor.submit(simulator);
     //4. simulation starts
 
