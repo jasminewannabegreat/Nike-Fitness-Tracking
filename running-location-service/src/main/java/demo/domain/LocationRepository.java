@@ -8,10 +8,10 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.data.rest.core.annotation.RestResource;
 import org.springframework.data.rest.webmvc.RepositoryRestController;
 
-@RepositoryRestResource(path = "locations")
-//repository works with the database
-//first param - Location is the entity/object name we need to covert, and second params is the data type of id of the object
+@RepositoryRestResource(path = "locations")//repository works with the database
+
 public interface LocationRepository extends JpaRepository<Location, Long> {
+    //extends keyword first param - Location is the entity/object name we need to covert, and second params is the data type of id of the object
 
     //in relational database, we store runnerMovementType into the column movementType
 

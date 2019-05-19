@@ -17,23 +17,23 @@ import java.util.Date;
 //JSON <-> Object model <-> ORM -> Relational Model
 @JsonInclude(JsonInclude.Include.NON_NULL) //JSON from front end, only when non-null, it will be mapped to relational database
 @Entity
-@Data //data annotation is from lombok library,so to generate getter and setter
 @Table(name = "LOCATIONS")
+@Data //data annotation is from lombok library,so to generate getter and setter
 public class Location {
 
     public enum GpsStatus{
-        Excellent, OK, UNRELIABLE, BAD, NOFIX, UNKNOWN;
+        EXCELLENT, OK, UNRELIABLE, BAD, NOFIX, UNKNOWN;
     }
 
     public enum RunnerMovementType{
-        STOPPED, IN_MOTIION;
+        STOPPED, IN_MOTION;
     }
     @Id
     @GeneratedValue
     private long id; //mark id as the id in the relational database and use the auto generated value
 
     @Embedded //will flatten unit info
-    @AttributeOverride(name = "bandMake", column = @Column(name = "Unit_band_make"))
+    @AttributeOverride(name = "bandMake", column = @Column(name = "unit_band_make"))
     //map the unit info's bandMake properties to relational database's column - unit_band_make
     private UnitInfo unitInfo;
 
@@ -66,28 +66,23 @@ public class Location {
 
     private Date timestamp = new Date();
 
-    private String grearProvider;
+    private String gearProvider;
 
     private RunnerMovementType runnerMovementType;
 
     private String serviceType;
 
     //Jackson library forces to explicit write the non-parameter constructor
-    public Location() {
-        this.unitInfo = null;
-    }
+    public Location () {this.unitInfo = null;}
+    public Location (UnitInfo unitInfo) {this.unitInfo = unitInfo;}
 
     //telling which constructor should be used to convert Json to location object
     //传过来的json如果有个property叫"runningId"的话,就用传进来的这个runningId新建一个unitInfo的instance
       // when json pass into service, use this constructor
     @JsonCreator
-    public Location(@JsonProperty("runningId") String runningId){
-        this.unitInfo = new UnitInfo(runningId);
-    }
+    public Location (@JsonProperty("runningId") String rid ) {this.unitInfo = new UnitInfo(rid);}
 
-    public Location(UnitInfo unitInfo){
-        this.unitInfo = unitInfo;
-    }
+
 
     public String getRunningId(){
         ////这里没有implement getter/setter,但是因为使用了lombok, 自动generate getter, setter

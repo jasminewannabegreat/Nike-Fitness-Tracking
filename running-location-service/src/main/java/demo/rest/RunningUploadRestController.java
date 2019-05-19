@@ -26,7 +26,7 @@ public class RunningUploadRestController {
     //api will requre path and http method
     @ResponseStatus(HttpStatus.CREATED) //if success, return 201
     //upload will need to call backend service to handle events, so we need to add locationService
-    public void upload (List<Location> locations){
+    public void upload (@RequestBody List<Location> locations){
         this.locationService.saveRunningLocations(locations);
     }
 
@@ -42,7 +42,7 @@ public class RunningUploadRestController {
         return this.locationService.findByRunnerMovementType(movementType, PageRequest.of(page,size));
     }
 
-    @RequestMapping(value = "running/runningId/{runningId}", method = RequestMethod.GET)
+    @RequestMapping(value = "/running/runningId/{runningId}", method = RequestMethod.GET)
     public Page<Location> findByRunningId(@PathVariable String runningId, @RequestParam(name = "page")int page, @RequestParam(name = "size")int size){
         return this.locationService.findByRunningId(runningId, PageRequest.of(page,size));
 

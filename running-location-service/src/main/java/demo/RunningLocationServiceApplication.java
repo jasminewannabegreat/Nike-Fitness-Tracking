@@ -6,6 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class RunningLocationServiceApplication {
     public static void main(String[] args){
-        SpringApplication.run(RunningLocationServiceApplication.class);
+        SpringApplication.run(RunningLocationServiceApplication.class, args);
     }
 }
