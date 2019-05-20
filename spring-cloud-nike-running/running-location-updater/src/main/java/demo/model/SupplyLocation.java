@@ -33,3 +33,4 @@ public class SupplyLocation {
         return location.getLongitude();
     }
 }
+//通过访问messageMapping, 将前端发来的json转成的dto, 发送给/topic/locations, 这个simpleBroker中, 返回前端

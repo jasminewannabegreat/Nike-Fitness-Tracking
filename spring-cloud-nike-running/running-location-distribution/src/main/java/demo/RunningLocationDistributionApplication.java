@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class RunnningLocationDistributionApplication {
+public class RunningLocationDistributionApplication {
 
     public static void main(String[] args){
-        SpringApplication.run(RunnningLocationDistributionApplication.class, args);
+        SpringApplication.run(RunningLocationDistributionApplication.class, args);
     }
 
 }

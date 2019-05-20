@@ -1,21 +1,22 @@
 package demo.model;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor(access = AccessLevel.PUBLIC) //generate constrcutors with params that are fields of this class, and it is public
+@NoArgsConstructor
+@JsonInclude(JsonInclude.Include.NON_NULL)
+@AllArgsConstructor
 public class CurrentPosition {
     private String runningId;
 
     private Point location;
     private RunnerStatus runnerStatus = RunnerStatus.NONE;
-    private double speed;
-    private double heading;
+    private Double speed;
+    private Double heading;
     private MedicalInfo medicalInfo;
-
-    public CurrentPosition(){
-
-    }
+    private SupplyLocation supplyLocation;
 }

@@ -1,4 +1,4 @@
-package demo.rest;
+package demo.task;
 
 import demo.task.LocationSimulator;
 import lombok.AllArgsConstructor;

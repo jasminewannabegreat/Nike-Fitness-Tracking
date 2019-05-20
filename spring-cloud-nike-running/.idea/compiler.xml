@@ -2,15 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="running-location-updater" />
+        <module name="running-eureka-server" />
+        <module name="edgingservice" />
         <module name="running-location-simulator" />
         <module name="eureka" />
         <module name="running-location-distribution" />
-        <module name="edgingservice" />
+        <module name="running-location-updater" />
         <module name="hystrixdashboard" />
       </profile>
     </annotationProcessing>
@@ -24,6 +26,7 @@
       <module name="eureka" options="-parameters" />
       <module name="hystrixdashboard" options="-parameters" />
       <module name="platform" options="-parameters" />
+      <module name="running-eureka-server" options="-parameters" />
       <module name="running-location-distribution" options="-parameters" />
       <module name="running-location-simulator" options="-parameters" />
       <module name="running-location-updater" options="-parameters" />

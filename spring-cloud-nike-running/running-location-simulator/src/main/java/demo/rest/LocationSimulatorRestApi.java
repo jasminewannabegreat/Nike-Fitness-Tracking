@@ -5,6 +5,7 @@ import demo.model.SimulatorInitLocation;
 import demo.service.GpsSimulatorFactory;
 import demo.service.PathService;
 import demo.task.LocationSimulator;
+import demo.task.LocationSimulatorInstance;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.task.AsyncTaskExecutor;
 import org.springframework.web.bind.annotation.RequestMapping;

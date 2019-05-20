@@ -31,7 +31,7 @@ public class LocationSimulator implements Runnable{
     @Getter
     @Setter
     private PositionInfo positionInfo = null;
-    @Getter
+
     @Setter
     private List<Leg> legs;
     private RunnerStatus runnerStatus = RunnerStatus.NONE;

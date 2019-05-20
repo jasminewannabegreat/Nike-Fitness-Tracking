@@ -5,7 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>hystrix-dashboard</artifactId>
+    <artifactId>running-hystrix-dashboard</artifactId>
+    <name>Cloud Infrastructure Hystrix Dashboard</name>
     <version>0.0.1.BUILD-SNAPSHOT</version>
 
     <parent>
