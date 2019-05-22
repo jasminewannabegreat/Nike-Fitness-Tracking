@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbfd0ca8-c683-44aa-9256-3195074de1a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/domain/LocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/domain/LocationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/domain/LocationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/domain/LocationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/running-location-service-1.0.0.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/running-location-service-1.0.0.BUILD-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/running-location-service-1.0.0.BUILD-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/running-location-service-1.0.0.BUILD-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-cloud-nike-running/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-nike-running/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-cloud-nike-running/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-nike-running/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-cloud-nike-running/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-nike-running/.idea/workspace.xml" afterDir="false" />
@@ -154,8 +149,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="305" />
-    <option name="y" value="122" />
+    <option name="x" value="169" />
+    <option name="y" value="41" />
     <option name="width" value="1433" />
     <option name="height" value="887" />
   </component>
@@ -166,68 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="running-location-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="running-location-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="running-location-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="running-location-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="running-location-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="running-location-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="running-location-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="running-location-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="running-location-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="running-location-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="running-location-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="running-location-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="running-location-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="running-location-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="running-location-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="running-location-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -294,12 +228,12 @@
       <workItem from="1557932859969" duration="7814000" />
       <workItem from="1558029293127" duration="2637000" />
       <workItem from="1558299009398" duration="1868000" />
-      <workItem from="1558301902094" duration="5527000" />
+      <workItem from="1558301902094" duration="6102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48063000" />
+    <option name="totallyTimeSpent" value="48638000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,10 +245,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="305" y="122" width="1433" height="887" extended-state="0" />
-    <editor active="true" />
+    <frame x="169" y="41" width="1433" height="887" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2699784" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2699784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -332,7 +265,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.837293" visible="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.837293" visible="true" weight="0.328125" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.16270699" side_tool="true" visible="true" weight="0.328125" />
       <window_info anchor="bottom" id="Spring" order="12" sideWeight="0.49852508" weight="0.32985657" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
